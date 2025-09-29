@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi394_blog</title>
+ <style>
+        body {background-color:#D4DFC7; }
+        header{display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #96C0B7}
+        article p{margin: 2px;}
+        .border{border: 2px solid #725752
+        }
+        img{display: block;
+        margin: 0 auto;}
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Ava's Blog</h1>
+        <nav>
+            <h2>
+            <a href="index.html">Home</a> 
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </h2>
+        </nav>
+    </header>
+   
+  <section>
+    <h2>Contact Me</h2>
+    <form>
+        <label for ="name">Name:</label>
+        <input type="text" id="name">
+        <br><br>
+        <label for ="email">Email:</label>
+        <input type="text" id="email">
+<br><br>
+        <label for="reason">Reason For Contact:</label>
+        <select id="reason" name="reason">
+            <option value="hi">Saying hi</option>
+            <option value="contract">Looking for a contractor</option>
+            <option value="interview">Interested in an interview</option>
+        </select> <br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="6" cols="40">
+        </textarea>
+<br>
+          <button type="submit">Submit</button>
+
+    </form>
+  </section>
+</body>
+</html>
