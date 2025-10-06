@@ -84,10 +84,21 @@
 
   <footer>
     <h3>Subscribe To Our Newsletter!</h3>
-    <form>
-        <input type="email" placeholder="Email Address" required>
-        <button type="submit">Subscribe</button>
-    </form>
+ <form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Send Feedback: 
+    <br><textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Subscribe</button>
+  </p>
+</form>
   </footer>
 </body>
 </html>
