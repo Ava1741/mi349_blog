@@ -11,7 +11,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #96C0B7;
+        position: sticky;
+        top: 0;
+        background-color: #D4DFC7;
         padding: 10px;
         }
 
@@ -21,11 +23,134 @@
             font-size: 18px;
             }
 
-    .border{
+    .border {
             border: 2px solid #725752;
-            }
-        
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #96C0B7;
+    }
+
     img{
             display: block;
             margin: 0 auto;
+            border: 2px solid #725752;
+            border-radius: 5px;
             }
+
+h1 {
+        color: #4A3C31;
+        font-size: 36px;
+        margin: 0; 
+}
+
+h2 {
+        color: #725752;
+        font-size: 24px;
+        margin: 0; 
+}
+
+h3 {
+        color: #4A3F35;
+        font-size: 20px;
+        margin: 0; 
+}
+
+p {
+        color: #4A3F35;
+        font-size: 18px;
+        line-height: 1.5px;
+        margin: 0; 
+        margin-top: 10px;
+}
+
+.border {
+        border: 2px solid #725752;
+        padding: 10px;
+        margin-bottom: 20px;
+        background-color: #96C0B7;
+}
+
+.center {
+        text-align: center;
+}
+
+a { color:#4A3F35; 
+        text-decoration:none; }
+
+a:hover { color:#725752; 
+        text-decoration:underline; }
+
+table { 
+        width: 50%; 
+        margin: 0 auto; 
+        border-collapse: collapse; 
+        }
+
+th, td {
+        border: 1px solid #725752;
+        padding: 10px 12px;
+        text-align: left;
+        }
+
+th {
+        background-color: #725752;
+        color: WHITE;
+        }
+
+        form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 2px solid #725752;
+        border-radius: 10px;
+        background-color: #96C0B7;
+        }
+
+        footer {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 14px;
+        color: #4A3F35;
+        }
+
+nav a {
+        margin: 0 10px;
+        font-size: 18px;
+        }
+
+section {
+        margin-top: 20px;
+}
+
+input [type= text], textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #725752;
+        border-radius: 5px;
+        font-size: 16px;
+        }
+
+input [type= submit], button {
+        background-color: #725752;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+}
+
+.floatright 
+{
+    float: right;
+    margin: 0 0 10px 10px;
+    padding: 10px
+    text-align: center;
+
+}
+div.floatright img 
+{
+    border: 2px solid #725752;
+    border-radius: 5px;
+}
